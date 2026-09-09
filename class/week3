@@ -1,0 +1,19 @@
+<!DOCTYPE html>
+
+<html lang="en">
+
+<head>
+    <meta chaerset="utf-8">
+    <title>Week 3 - Links and Images</title>
+</head>
+
+<body>
+    <h1>This is a header</h1>
+
+    <!-- This is a link -->
+    <p><a href="https://syr.edu">Syracuse University</a></p>
+    <p><a href="https://amazon.com">Amazon</a></p>
+    <img src="../images/image" alt="Description of image">
+</body>
+
+</html>
