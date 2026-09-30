@@ -1,0 +1,5 @@
+        p { font-family: Verdana, Tahoma; }
+        h1, h2 { color: Red;}
+        h1 { font-size: 50 em; }
+        h2 { font-size: 30 em; }
+        .evenrow { background-color: purple; color: white; }  
