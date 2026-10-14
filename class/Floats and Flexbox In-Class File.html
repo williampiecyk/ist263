@@ -6,9 +6,11 @@
     <meta charset="utf-8">
     <title>Floats and Flexbox In-Class File</title>
     <style>
-        .firstimage {float: left;}
-        .stopfloat {clear: both;}
-        .secondimage {float: right;}
+        .firstimage { float: left; margin: 0 2em 2em 0;}
+        .secondimage {float: right; margin: 0 0 2em 2em;}
+        .stopfloat { clear: both;}
+        .mycontainer { display: flex;}
+        .mycontainer div { padding: 1em 2em;}
     </style>
 </head>
 
@@ -40,15 +42,20 @@
     <p>Although it is not a federal holiday, some states, as well as Washington, D.C., have holidays honoring Native Americans, some of which are on the second Monday in October. Indigenous Peoples Day is typically paired with Columbus Day or replaces the federal holiday altogether. A number of cities and school systems observe Indigenous Peoples Day as well.</p>
 
     <h1>Flexbox</h1>
-    <img src="https://peopel-su.github.io/ist263/class/images/icons8-drum-set-100.png" alt="" />
-    <p>Drum Set</p>
-    <img src="https://peopel-su.github.io/ist263/class/images/icons8-grand-piano-100.png" alt="" />
-    <p>Grand Piano</p>
-    <img src="https://peopel-su.github.io/ist263/class/images/icons8-micro-100.png" alt="" />
-    <p>Microphone</p>
-    <img src="https://peopel-su.github.io/ist263/class/images/icons8-rock-music-100.png" alt="" />
-    <p>Guitar</p>
+    <div class="mycontainer">
 
+        <div><img src="https://peopel-su.github.io/ist263/class/images/icons8-drum-set-100.png" alt="" />
+    <p>Drum Set</p></div>
+
+    <div><img src="https://peopel-su.github.io/ist263/class/images/icons8-grand-piano-100.png" alt="" />
+    <p>Grand Piano</p></div>
+
+    <div><img src="https://peopel-su.github.io/ist263/class/images/icons8-micro-100.png" alt="" />
+    <p>Microphone</p></div>
+
+    <div><img src="https://peopel-su.github.io/ist263/class/images/icons8-rock-music-100.png" alt="" />
+    <p>Guitar</p></div>
+</div>
 </body>
 
 </html>

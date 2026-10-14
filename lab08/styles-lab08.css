@@ -1,0 +1,9 @@
+body { background-color: #0e1a40; color: #ffffff; }
+p { font-family: Verdana, Tahoma; }
+h1, h2 { color: #946b2d; }
+h1 { font-size: 2.5em; }
+h2 { font-size: 1.75em; }
+a { color: #d9b36c; }
+nav { background-color: #222f5b; border: 2px solid #946b2d; padding: 10px; margin-bottom: 30px; }
+nav a { color: #e6e6e6; }
+nav a:hover { background-color: hsl(0, 0%, 36%); }
