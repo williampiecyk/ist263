@@ -1,0 +1,35 @@
+<!DOCTYPE html>
+
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <title>More Javascript</title>
+    <script>
+        function wrongAnswer () {
+            document.getElementById("wrong").innerHTML = "<span style='color:red;'>True is the wrong answer!</span>";
+        }
+        function rightAnswer () {
+            document.getElementById("correct").innerHTML = "<span style='color:green;'>False is the right answer!</span>";
+        }
+        function change () {
+            document.getElementById("arrow").setAttribute("src","https://peopel-su.github.io/ist263/images/arrow_over.png")
+        }
+        function changeback () {
+            document.getElementById("arrow").setAttribute("src","https://peopel-su.github.io/ist263/images/arrow.png")
+        }
+        function colorChange () {
+            document.getElementById("first").style.color = "oooooo";
+        }
+    </script>
+</head>
+
+<body>
+    <h1>My JavaScript Quiz</h1>
+    <p>Java and JavaScript are the same thing.</p>
+    <p onclick="wrongAnswer()" id="wrong">True</p>
+    <p onclick="rightAnswer()" id="correct">False</p>
+    <img id="arrow" src="https://peopel-su.github.io/ist263/images/arrow.png" alt="arrow icon" onmouseover="change()" onmouseout="changeback()" onclick="colorChange()">
+</body>
+
+</html>
